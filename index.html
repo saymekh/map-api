@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="saymek habtu">
+  <meta name="description" content="">
+  <meta name="keywords" content="html, css, web, web development, javascript">
+  <title>Go-Gourment</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/style/index.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css"/>
+  <script src="./assets/script/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img 
+        class="slide-in" 
+        src="./assets/image/logo-transparent-svg.svg" 
+        alt="Food Delivery Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-banner">
+      <div class="banner-content fade-in">
+        <h1>Delicious Food Delivered to Your Doorstep</h1>
+        <p>Experience the best food delivery service in town.</p>
+        <a href="#" class="cta-button">Order Now</a>
+      </div>
+    </section>
+
+    <section class="featured-dishes">
+      <div class="section-container">
+        <h2>Featured Dishes</h2>
+        <div class="dish-grid">
+          <div class="dish-item">
+            <img src="./assets/image/burger.jpg" alt="Dish 1">
+            <h3>Gourmet Delight Burger</h3>
+            <p>A juicy, premium beef patty topped with melted brie, caramelized 
+              onions, and truffle aioli, served on a soft, artisanal brioche bun
+            </p>
+            <p>Price: <span>$18.95</span></p>
+            <a href="#" class="cta-button">Order Now</a>
+          </div>
+          <div class="dish-item">
+            <img src="./assets/image/spaghetti.jpg" alt="Dish 2">
+            <h3>Nonna's Authentic Meatballs</h3>
+            <p>Slow-simmered beef Bolognese sauce served over a bed of al dente 
+              spaghetti, topped with Parmesan cheese and fresh basil
+            </p>
+            <p>Price: <span>$16.95</span></p>
+            <a href="#" class="cta-button">Order Now</a>
+          </div>
+          <div class="dish-item">
+            <img src="./assets/image/steak.jpg" alt="Dish 3">
+            <h3>Prime Rib-Eye Steak Frites</h3>
+            <p>An 8oz prime rib-eye steak, grilled to perfection, served with 
+              crispy French fries and a side of garlic aioli
+            </p>
+            <p>Price: <span>$24.95</span></p>
+            <a href="#" class="cta-button">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div class="section-container">
+        <h2>About Us</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>We are a team of passionate food enthusiasts dedicated to 
+              bringing you the best dining experience. Our mission is to deliver 
+              delicious meals right to your doorstep, making it easy for you to 
+              enjoy a gourmet meal in the comfort of your own home.
+            </p>
+            <p>
+              At Gourmet Express, we believe that exceptional cuisine should be
+               accessible to everyone. That's why we've curated a menu of 
+               exquisite dishes, crafted by our talented team of chefs using 
+               only the freshest, locally-sourced ingredients.
+            </p>
+            <a href="#" class="cta-button">Learn More</a>
+          </div>
+          <div class="about-image">
+            <img src="./assets/image/about-us.jpg" alt="About Us">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <h2 id="wheretf">where To Find Us</h2>
+      <a class="cta-button" id="locate-us">Locate Us</a>
+      <div class="section-container" id="map"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2023 Food Delivery. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
